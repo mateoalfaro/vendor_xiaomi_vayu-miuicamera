@@ -1,5 +1,7 @@
 Prebuilt MIUI Camera to include in custom ROM builds.
 
+Reference: https://github.com/Tree-sources/vendor_xiaomi-sweet-miuicamera
+
 ### Supported device
 * POCO X3 Pro (vayu)
 
