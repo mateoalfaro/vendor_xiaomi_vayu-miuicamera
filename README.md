@@ -15,3 +15,10 @@ Reference: https://github.com/Tree-sources/vendor_xiaomi-sweet-miuicamera
 # Camera
 $(call inherit-product-if-exists, vendor/xiaomi/vayu-miuicamera/products/miuicamera.mk)
 ```
+
+3. Include sepolicy to `BoardConfig.mk` in device tree:
+
+```
+# Sepolicy
+include vendor/xiaomi/vayu-miuicamera/products/board.mk
+```
