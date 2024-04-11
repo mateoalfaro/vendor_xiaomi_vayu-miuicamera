@@ -3,7 +3,7 @@ allow platform_app {
     hal_misys_hwservice
 }:hwservice_manager find;
 
-allow platform_app app_data_file:file execute;
+allow platform_app camera_data_file:file execute;
 
 hal_client_domain(platform_app, hal_misys)
 
